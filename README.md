@@ -6,15 +6,17 @@
 
 <a href="https://www.buymeacoffee.com/zetadracon" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" ></a>
 
-# Dark Mode for DnD 5th Edition #
+# Smaller Chat for DnD 5th Edition #
 ## Package Description ##
 A simple FoundryVTT module which makes the 3.X.X chat cards smaller.
 ## Installation ##
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
 ### Old chat: ###
+![image](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/6c8cdd5b-76e8-4527-bf24-e76ce3c3533e)
 
 ### With Smaller Chat for 5e: ###
+
 
 ## Usage ##
 Once installed and enabled, you can enjoy the smaller chat!
