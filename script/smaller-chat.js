@@ -1,6 +1,6 @@
 function changeMode(val, name){
     if(val == true){
-        $('#sidebar .chat-sidebar').addClass(name);
+        $('body.vtt').addClass(name);
     }
 }
 Hooks.once('init', () => {
