@@ -13,7 +13,7 @@ A simple FoundryVTT module which makes the 3.X.X chat cards smaller.
 Simply download the module, either via the the 'Install Module' feature in the 'Setup' screen, or by downloading the latest release from the github repository.
 ## Preview ##
 ### Side-by-Side Comparison: ###
-![With Module](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/9291062d-fff5-43fc-bbc4-c65dfe393523) ![Without Module](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/e2c67554-c848-46c4-b9db-3a04fce93362)
+![With Module](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/acd2b64c-102f-421d-ba36-203327f03898) ![Without Module](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/e2c67554-c848-46c4-b9db-3a04fce93362)
 
 
 ## Usage ##
