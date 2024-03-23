@@ -13,6 +13,10 @@
     padding-top: 0.25rem;
     padding-bottom: 0.25rem;
 }
+#sidebar .chat-sidebar.smaller-chat-5e .message .dnd5e2.chat-card .pills .pill {
+    font-size: var(--font-size-9);
+    padding: 0.15rem 0.25rem;
+}
 
 /*Dice Output Changes*/
 #sidebar .chat-sidebar.smaller-chat-5e .message .dice-result .dice-total {
