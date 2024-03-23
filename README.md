@@ -16,7 +16,7 @@ Simply download the module, either via the the 'Install Module' feature in the '
 ![image](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/6c8cdd5b-76e8-4527-bf24-e76ce3c3533e)
 
 ### With Smaller Chat for 5e: ###
-![image](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/552d7890-b5d4-404a-99d7-ef024c8fff1f)
+![image](https://github.com/ZeroXNoxus/smaller-chat-5e/assets/29397572/9291062d-fff5-43fc-bbc4-c65dfe393523)
 
 ## Usage ##
 Once installed and enabled, you can enjoy the smaller chat!
