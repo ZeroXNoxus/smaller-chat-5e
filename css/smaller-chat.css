@@ -1,0 +1,30 @@
+/*General Chat Card Changes*/
+#sidebar .chat-sidebar.smaller-chat-5e .message {
+    padding: 0.3rem;
+}
+#sidebar .chat-sidebar.smaller-chat-5e .message .message-header .title {
+    font-size: var(--font-size-14);
+}
+#sidebar .chat-sidebar.smaller-chat-5e .message .message-header .message-sender img{
+    width: 35px;
+    height: 35px;
+}
+#sidebar .chat-sidebar.smaller-chat-5e .message .dnd5e2.chat-card .description {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+}
+
+/*Dice Output Changes*/
+#sidebar .chat-sidebar.smaller-chat-5e .message .dice-result .dice-total {
+    font-size: var(--font-size-18);
+}
+#sidebar .chat-sidebar.smaller-chat-5e .message .dice-result .dice-formula, 
+#sidebar .chat-sidebar.smaller-chat-5e .message .dice-result .dice-total {
+    padding: 0.2rem;
+}
+#sidebar .chat-sidebar.smaller-chat-5e .message .dice-result .dice-tooltip .dice .dice-rolls {
+    margin: 3px 0 3px 10px;
+}
+#sidebar .chat-sidebar.smaller-chat-5e .message .dice-result .dice-tooltip .dice .total .value {
+    font-size: var(--font-size-18);
+}
