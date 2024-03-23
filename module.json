@@ -1,0 +1,40 @@
+{
+  "id": "smaller-chat-5e",
+  "title": "DnD Smaller Chat - 5th Edition",
+  "description": "A simple FoundryVTT module which makes the 3.X.X chat cards smaller.",
+  "authors": [
+    {
+    "name": "ZeroXNoxus"
+    }
+    ],
+  "version": "0.0.1",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "scripts": [
+    "/script/smaller-chat.js"
+  ],
+  "styles": [
+    "/css/smaller-chat.css",
+    "/css/module-support.css"
+  ],
+  "relationships": {
+    "systems": [{
+      "id": "dnd5e",
+      "type": "system",
+      "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.0.1/system.json",
+      "compatibility": {
+        "minimum": "3.0.1",
+        "verified": "3.1.0",
+        "maximum": "3.1.999999"
+      }
+    }]
+  },
+  "manifest": "https://github.com/ZeroXNoxus/smaller-chat-5e/releases/download/latest/module.json",
+  "url": "https://github.com/ZeroXNoxus/smaller-chat-5e",
+  "download": "https://github.com/ZeroXNoxus/smaller-chat-5e/archive/refs/tags/latest.zip",
+  "readme": "https://github.com/ZeroXNoxus/smaller-chat-5e/blob/latest/README.md",
+  "bugs": "https://github.com/ZeroXNoxus/smaller-chat-5e/issues",
+  "changelog": "https://github.com/ZeroXNoxus/smaller-chat-5e/releases"
+}
