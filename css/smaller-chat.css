@@ -1,30 +1,49 @@
 /*General Chat Card Changes*/
 body.smaller-chat-5e .chat-sidebar .message {
-    padding: 0.3rem;
+    padding: 0.3rem !important;
 }
 body.smaller-chat-5e .chat-sidebar .message .message-header .title {
-    font-size: var(--font-size-14);
+    font-size: var(--font-size-14) !important;
 }
 body.smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .description {
-    padding-top: 0.25rem;
-    padding-bottom: 0.25rem;
+    padding-top: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
+}
+body.smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .card-buttons {
+    gap: 0.2rem !important;
 }
 body.smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .pills .pill {
-    font-size: var(--font-size-9);
-    padding: 0.15rem 0.25rem;
+    font-size: var(--font-size-9) !important;
+    padding: 0.15rem 0.25rem !important;
+}
+body.smaller-chat-5e .chat-sidebar .message .dnd5e2 button { padding: 0 !important; }
+
+/*Chat Textfield Changes*/
+body.smaller-chat-5e .chat-sidebar #chat-form { 
+    flex: 0 0 65px;
+    margin: 0 6px 2px;
 }
 
 /*Dice Output Changes*/
 body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-total {
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-18) !important;
 }
 body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-formula, 
 body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-total {
-    padding: 0.2rem;
+    padding: 0.2rem !important;
 }
 body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .dice-rolls {
-    margin: 3px 0 3px 10px;
+    margin: 3px 0 3px 10px !important;
+}
+body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total {
+    flex-basis: 40%;
+}
+body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total .label {
+    font-size: var(--font-size-9);
 }
 body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total .value {
-    font-size: var(--font-size-18);
+    font-size: var(--font-size-18) !important;
+}
+body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .tooltip-part.constant {
+    min-height: 33px;
 }
