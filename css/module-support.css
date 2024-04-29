@@ -2,3 +2,13 @@
 body.smaller-chat-5e .chat-sidebar #chat-controls {
     padding: 0.2rem 0;
 }
+body.smaller-chat-5e .dfce-cm-middle>.message-content, 
+body.smaller-chat-5e .dfce-cm-bottom>.message-content { padding-right: 0px; }
+
+/*MODULE FIX STYLINGS*/
+/*MidiQOL: Fixed Overflow Label Alignment*/
+.midi-qol-attack-roll, .midi-qol-damage-roll{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}

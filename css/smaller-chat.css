@@ -47,3 +47,6 @@ body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .to
 body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .tooltip-part.constant {
     min-height: 33px;
 }
+body.smaller-chat-5e .chat-sidebar .message.round-marker{ padding: 0 0.3rem !important; }
+body.smaller-chat-5e :is(.chat-popout, #chat-log) .message.round-marker .message-header { margin-bottom: 0.25rem; }
+body.smaller-chat-5e :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message){ text-align: justify; }
