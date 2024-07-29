@@ -7,10 +7,15 @@
     "name": "ZeroXNoxus"
     }
     ],
+<<<<<<< Updated upstream
   "version": "0.0.3",
+=======
+  "version": "0.1.1",
+>>>>>>> Stashed changes
   "compatibility": {
     "minimum": "11",
-    "verified": "11"
+    "verified": "12",
+    "maximum": "12.99999"
   },
   "scripts": [
     "/script/smaller-chat.js"
@@ -23,11 +28,16 @@
     "systems": [{
       "id": "dnd5e",
       "type": "system",
-      "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.0.1/system.json",
+      "manifest": "https://github.com/foundryvtt/dnd5e/releases/download/release-3.3.1/system.json",
       "compatibility": {
         "minimum": "3.0.1",
+<<<<<<< Updated upstream
         "verified": "3.2.0",
         "maximum": "3.2.999999"
+=======
+        "verified": "3.3.1",
+        "maximum": "3.3.999999"
+>>>>>>> Stashed changes
       }
     }]
   },

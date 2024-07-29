@@ -1,14 +1,19 @@
 /*DF Chat Enhancements Styling*/
-body.smaller-chat-5e .chat-sidebar #chat-controls {
+body.zetas-smaller-chat-5e .chat-sidebar #chat-controls {
     padding: 0.2rem 0;
 }
-body.smaller-chat-5e .dfce-cm-middle>.message-content, 
-body.smaller-chat-5e .dfce-cm-bottom>.message-content { padding-right: 0px; }
+body.zetas-smaller-chat-5e .dfce-cm-middle>.message-content, 
+body.zetas-smaller-chat-5e .dfce-cm-bottom>.message-content { padding-right: 0px; }
 
 /*MODULE FIX STYLINGS*/
 /*MidiQOL: Fixed Overflow Label Alignment*/
-.midi-qol-attack-roll, .midi-qol-damage-roll{
+body.zetas-smaller-chat-5e .midi-qol-attack-roll, 
+body.zetas-smaller-chat-5e .midi-qol-damage-roll{
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
 }
+body.zetas-smaller-chat-5e .dnd5e2.chat-card { gap: 0.2rem !important; }
+/*Damage Log: Fixed Broken Avatar Size*/
+body.zetas-smaller-chat-5e #damage-log .chat-message .message-header .message-sender .avatar { display: none; }
+body.zetas-smaller-chat-5e span.name-stacked * { display: block; }

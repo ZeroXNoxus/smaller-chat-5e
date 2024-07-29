@@ -4,5 +4,5 @@ function changeMode(val, name){
     }
 }
 Hooks.once('init', () => {
-    changeMode(true, 'smaller-chat-5e');
+    changeMode(true, 'zetas-smaller-chat-5e');
 });

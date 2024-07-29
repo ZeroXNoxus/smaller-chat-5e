@@ -1,52 +1,57 @@
 /*General Chat Card Changes*/
-body.smaller-chat-5e .chat-sidebar .message {
+body.zetas-smaller-chat-5e .chat-sidebar .message {
     padding: 0.3rem !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .message-header .title {
+body.zetas-smaller-chat-5e .chat-sidebar .message .message-header .title {
     font-size: var(--font-size-14) !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .description {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .description {
     padding-top: 0.25rem !important;
     padding-bottom: 0.25rem !important;
+    margin-bottom: 0.25rem !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .card-buttons {
-    gap: 0.2rem !important;
+body.zetas-smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .card-buttons {
+    gap: 0.25rem !important;
+    padding-bottom: 0.25rem !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .pills .pill {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .pills .pill {
     font-size: var(--font-size-9) !important;
     padding: 0.15rem 0.25rem !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dnd5e2 button { padding: 0 !important; }
+body.zetas-smaller-chat-5e .chat-sidebar .message .dnd5e2 button { padding: 0 !important; }
+
+body.zetas-smaller-chat-5e :is(.chat-popout, #chat-log) .message .message-header { margin-bottom: 0.2rem !important; }
 
 /*Chat Textfield Changes*/
-body.smaller-chat-5e .chat-sidebar #chat-form { 
+body.zetas-smaller-chat-5e .chat-sidebar #chat-form { 
     flex: 0 0 65px;
     margin: 0 6px 2px;
 }
 
 /*Dice Output Changes*/
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-total {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-total {
     font-size: var(--font-size-18) !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-formula, 
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-total {
-    padding: 0.2rem !important;
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-formula, 
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-total {
+    padding: 0.25rem !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .dice-rolls {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .dice-rolls {
     margin: 3px 0 3px 10px !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total {
     flex-basis: 40%;
 }
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total .label {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total .label {
     font-size: var(--font-size-9);
 }
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total .value {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .dice .total .value {
     font-size: var(--font-size-18) !important;
 }
-body.smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .tooltip-part.constant {
+body.zetas-smaller-chat-5e .chat-sidebar .message .dice-result .dice-tooltip .tooltip-part.constant {
     min-height: 33px;
 }
-body.smaller-chat-5e .chat-sidebar .message.round-marker{ padding: 0 0.3rem !important; }
-body.smaller-chat-5e :is(.chat-popout, #chat-log) .message.round-marker .message-header { margin-bottom: 0.25rem; }
-body.smaller-chat-5e :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message){ text-align: justify; }
+body.zetas-smaller-chat-5e .chat-sidebar .message.round-marker{ padding: 0 0.3rem !important; }
+body.zetas-smaller-chat-5e :is(.chat-popout, #chat-log) .message.round-marker .message-header { margin-bottom: 0.25rem; }
+body.zetas-smaller-chat-5e :is(.chat-popout, #chat-log) .message:not(.dnd5e-cm-message){ text-align: justify; }
+body.zetas-smaller-chat-5e :is(.chat-popout, #chat-log) .message .message-header .flavor-text { margin-block-start: 0px !important; }
