@@ -6,9 +6,9 @@ body.zetas-smaller-chat-5e .chat-sidebar .message .message-header .title {
     font-size: var(--font-size-14) !important;
 }
 body.zetas-smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .description {
-    padding-top: 0.25rem !important;
-    padding-bottom: 0.25rem !important;
-    margin-bottom: 0.25rem !important;
+    padding-top: 0.15rem !important;
+    padding-bottom: 0.15rem !important;
+    margin-bottom: 0.15rem !important;
 }
 body.zetas-smaller-chat-5e .chat-sidebar .message .dnd5e2.chat-card .card-buttons {
     gap: 0.25rem !important;
