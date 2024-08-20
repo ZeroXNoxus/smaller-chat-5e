@@ -1,7 +1,5 @@
 /*DF Chat Enhancements Styling*/
-body.zetas-smaller-chat-5e .chat-sidebar #chat-controls {
-    padding: 0.2rem 0;
-}
+body.zetas-smaller-chat-5e .chat-sidebar #chat-controls { padding: 0.2rem 0; }
 body.zetas-smaller-chat-5e .dfce-cm-middle>.message-content, 
 body.zetas-smaller-chat-5e .dfce-cm-bottom>.message-content { padding-right: 0px; }
 
@@ -15,5 +13,5 @@ body.zetas-smaller-chat-5e .midi-qol-damage-roll{
 }
 body.zetas-smaller-chat-5e .dnd5e2.chat-card { gap: 0.2rem !important; }
 /*Damage Log: Fixed Broken Avatar Size*/
-body.zetas-smaller-chat-5e #damage-log .chat-message .message-header .message-sender .avatar { display: none; }
-body.zetas-smaller-chat-5e span.name-stacked * { display: block; }
+body.zetas-smaller-chat-5e.module-credits-enabled #damage-log .chat-message .message-header .message-sender .avatar { display: none; }
+body.zetas-smaller-chat-5e.module-credits-enabled span.name-stacked * { display: block; }
